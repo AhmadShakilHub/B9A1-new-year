@@ -20,35 +20,33 @@ section {
 .banner-container {
   width: 1320px;
   height: 600px;
-  text-align: center;
   background-image: url("../resources/Banner\ Image.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-.banner-title,
-.banner-first-title {
-  width: 55%;
+#banner-container {
   text-align: center;
-  margin: auto 340px;
+  padding: 177px 344px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
+
 .banner-first-title {
   color: #fff;
   text-align: center;
   font-size: 32px;
   font-weight: 400;
-  margin-top: 177px;
 }
 .banner-title {
   color: #fcfbfbfc;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
-  line-height: 95px; /* 131.944% */
+  line-height: 95px; /*131.944%*/
 }
 
 /* Discount section styles */
-.discount-container {
-}
 .discount-off-title {
   color: #f00;
   text-align: center;
@@ -154,29 +152,55 @@ section {
   text-align: center;
   font-size: 20px;
   border: 10px inset #e5ae23;
-  background-color: rgb(191, 92, 39);
-  box-shadow: 4px 4px 4px rgb(60, 57, 57) ;
+  background-color: rgb(72, 17, 8);
+  box-shadow: 4px 4px 4px rgb(60, 57, 57);
   cursor: pointer;
-  transition:color 0.5s ease-in-out;
-  transform: background-color 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   padding: 10px;
 }
-.placetime-button:hover{
-    color: rgb(42, 106, 224);
-    background-color: rgb(230, 35, 35);
+.placetime-button:hover {
+  color: rgb(239, 189, 8);
+  background-color: rgb(144, 59, 23);
 }
 
-/* Upcoming section styles */
-.
-.
-.
+/* gift section styles */
 
-/* Fumctional section styles */
-.
-.
-.
+.gifts-container {
+  width: 1320px;
+  max-width: 1600px;
+  padding: 0 140px;
+}
+.gifts-texts {
+  width: 896px;
+  margin-bottom: 25px;
+}
+.gifts-top-line {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.gifts-heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.gifts-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.gift-image-container {
+  display: block;
+  justify-items: center;
+  align-items: center;
+}
+.gift-image-div{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
 
-/* Gifts section styles */
-.
-.
-.
+}
+
