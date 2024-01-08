@@ -1,4 +1,5 @@
 /* common shared styles */
+
 * {
   font-family: "Merriweather", serif;
 }
@@ -13,10 +14,12 @@ section {
 }
 .container {
   width: 95%;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  border-radius: 16px;
 }
 
 /* banner styles */
+
 .banner-container {
   width: 1320px;
   height: 600px;
@@ -47,6 +50,7 @@ section {
 }
 
 /* Discount section styles */
+
 .discount-off-title {
   color: #f00;
   text-align: center;
@@ -74,7 +78,6 @@ section {
 /* midnight party section styles */
 .mindnight-container {
   width: 1320px;
-  height: 600px;
   margin-top: 20px;
   background-image: url("../resources/Vectorrr.png");
 }
@@ -110,6 +113,7 @@ section {
 }
 
 /* Time and place banner styles */
+
 .placetime-container {
   width: 1320px;
   height: 482px;
@@ -163,6 +167,59 @@ section {
   background-color: rgb(144, 59, 23);
 }
 
+/* Coming Soon section styles */
+
+.upcoming-container{
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .upcoming-text1-con{
+    width: 390px;
+    padding: 105px 0;
+  }
+  .uc-red-text{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .uc-heading{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .uc-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .uc-img-border{
+  width: 460px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid #F00;
+  border-radius: 460px;
+  }
+  .upcoming-text2-con{
+  width: 280px;
+  padding-left: ;
+  }
+  .uc-year-24{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .uc-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+  }
+
 /* gift section styles */
 
 .gifts-container {
@@ -202,6 +259,7 @@ section {
   margin-bottom: 18px;
 }
 /* newsletter section styles */
+
 .newsletter-container {
   width: 1320px;
   border-radius: 16px;
@@ -214,8 +272,6 @@ section {
   align-items: center;
   padding: 80px 220px;
 }
-.newsletter-text {
-}
 .newsletter-heading {
   color: #070211;
   text-align: center;
@@ -227,7 +283,7 @@ section {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px; 
 }
 .newsletter-inputs {
   display: flex;
@@ -261,20 +317,18 @@ section {
 }
 
 /* footer section styles */
+
 footer{
   width: 1600px;
   background: #070211;
   margin: auto;
   padding: 140px 120px;
-
 }
 .footer-address-con{
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   align-items: center;
-  
-  
 }
 .footer-address, .footer-contact{
   color: #FFF;
@@ -283,13 +337,11 @@ footer{
   width: 400px;
   line-height: 60px;
 }
-
 .footer-contact{
 text-align: right
-
 }
 .con-web, .con-phn{
-  padding-bottom: ;
+  padding-bottom: 10px;
   line-height: 5px;
 }
 .footer-icon{
@@ -304,10 +356,6 @@ gap: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: ;
-}
-.rights{
-
 }
 .unsubscribe{
   color: #FFF;
