@@ -100,7 +100,6 @@ section {
   text-align: center;
   font-size: 20px;
   font-weight: 700;
-  text-transform: uppercase;
   border: 0;
   background-color: transparent;
   cursor: pointer;
@@ -243,6 +242,11 @@ section {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.subscribe:hover{
+  color: rgb(0, 187, 255);
 }
 .email {
   width: 300px;
@@ -254,4 +258,67 @@ section {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+
+/* footer section styles */
+footer{
+  width: 1600px;
+  background: #070211;
+  margin: auto;
+  padding: 140px 120px;
+
+}
+.footer-address-con{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
+  
+  
+}
+.footer-address, .footer-contact{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  width: 400px;
+  line-height: 60px;
+}
+
+.footer-contact{
+text-align: right
+
+}
+.con-web, .con-phn{
+  padding-bottom: ;
+  line-height: 5px;
+}
+.footer-icon{
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+.footer-rights-unsubscribe{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: ;
+}
+.rights{
+
+}
+.unsubscribe{
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.unsubscribe:hover{
+  color: rgb(0, 187, 255);
 }
